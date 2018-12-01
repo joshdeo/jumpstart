@@ -1,0 +1,62 @@
+.navbar-default .navbar-nav .active  a, .navbar-default .navbar-nav .active > a:hover {
+    background-color: inherit;
+    color: #399bd1;
+}
+
+ul a {
+    float: left;
+    display: inline-block;
+    margin-right: 1rem;
+    text-decoration: none;
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+}
+
+.jumbotron {
+    background-image: url(../resources/images/jumbotron-bike.jpg);
+    height: 60rem;
+}
+
+.jumboheader {
+    font-family: monoton;
+    text-align: center;
+    text-shadow: black;
+}
+
+.jumboparagraph {
+    font-family: monoton;
+    text-align: center;
+    text-shadow: black;
+}
+
+.mainimg {
+    margin-right: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.jumbotron a {
+    height: 60px;
+    vertical-align: middle;
+    padding-top: 17px;
+    margin-left: 45%;
+    margin-top: 15rem;
+    background-color: #399bd1;
+    width: 160px;
+    border: 0;
+    font-size: 2rem;
+}
+
+.btn:hover {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    transition: .5s box-shadow;
+}
+
+.btn:active {
+    box-shadow: 1px 1px black;
+}
+
+.btn:disabled {
+    box-shadow: 1px 1px black;
+}
+
