@@ -193,16 +193,20 @@ html {
         background-repeat: no-repeat; 
     }
 
+    .jumbotron-bike h1 {
+        font-size: 6.3rem
+    }
+
     .jumbotron-beer h1 {
-        font-size: 5.8rem;
+        font-size: 4.5rem;
     }
 
     .jumbotron-flowers h1 {
-        font-size: 5.5rem;
+        font-size: 4.2rem;
     }
 
     .jumbotron-duffel h1 {
-        font-size: 6.5rem;
+        font-size: 4.9rem;
     }
 
     .featuredInfo1 h3 {
