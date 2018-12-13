@@ -10,6 +10,15 @@ $(document).ready(function () {
         pauseOnHover: false,
     });
 
-    let x = $(this).scroll();
-    let y = $(this).scrollTop();
+
+    $(window).on('scroll', function () {
+        if ($(this).scrollTop() > 137) {
+            $('.navbar').fadeOut(500);
+        } else if ($(this).scrollTop() < 137) {
+            $('.navbar').fadeIn(500);
+        } else {
+
+        };
+        console.log($(this).scrollTop());
+    });
 });
