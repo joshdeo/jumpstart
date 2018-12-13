@@ -193,6 +193,18 @@ html {
         background-repeat: no-repeat; 
     }
 
+    .jumbotron-beer h1 {
+        font-size: 5.8rem;
+    }
+
+    .jumbotron-flowers h1 {
+        font-size: 5.5rem;
+    }
+
+    .jumbotron-duffel h1 {
+        font-size: 6.5rem;
+    }
+
     .featuredInfo1 h3 {
         color: #339bd1;
         font-weight: bold;
