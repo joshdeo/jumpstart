@@ -9,4 +9,7 @@ $(document).ready(function () {
         pauseOnFocus: false,
         pauseOnHover: false,
     });
+
+    let x = $(this).scroll();
+    let y = $(this).scrollTop();
 });
